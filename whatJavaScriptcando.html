@@ -5,10 +5,18 @@
     <title>Document</title>
 </head>
 <body>
+    <p>JavaScript can show hidden HTML elements.</p>
+
+    <p id="demo" style="display: none">Hello JS!</p>
+
+    <button type="button" onclick="document.getElementById('demo').style.display=
+    'block'">Click to show hidden documents </button>
+    <br>
     <p id="demo">JS hiding html elements.</p>
     <button type="button" 
     onclick="document.getElementById('demo').style.display='none'">
-     Click me 
+     Click to hide content
     </button>
+    <p>Hello JavaScripts!</p>
 </body>
 </html>
